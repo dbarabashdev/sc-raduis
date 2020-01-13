@@ -1,0 +1,19 @@
+{
+	"name": "core",
+	"version": "1.0.0",
+	"main": "index.js",
+	"license": "MIT",
+	"private": false,
+	"files": [
+		"lib"
+	],
+	"main": "./lib/index.js",
+	"devDependencies": {
+		"react": "16.8.6",
+		"react-dom": "16.8.6"
+	},
+	"peerDependencies": {
+		"react": ">= 16.8.0 < 17",
+		"react-dom": ">= 16.8.0 < 17"
+	}
+}
