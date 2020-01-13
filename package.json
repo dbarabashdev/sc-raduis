@@ -1,16 +1,16 @@
 {
-	"scripts": {
-		"format": "prettier --write \"**/*.{js,css,md}\"",
-		"posttest": "npm run format",
-		"update:version": "lerna version --no-push"
-	},
-	"private": true,
-	"workspaces": [
-		"packages/*"
-	],
-	"devDependencies": {
-		"lerna": "^3.19.0",
-		"prettier": "^1.19.1"
-	},
-	"name": "sc-radius"
+  "scripts": {
+    "format": "prettier --write \"**/*.{js,css,md}\"",
+    "posttest": "npm run format",
+    "update:version": "lerna version --no-push"
+  },
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "lerna": "^3.19.0",
+    "prettier": "^1.19.1"
+  },
+  "name": "sc-radius"
 }
