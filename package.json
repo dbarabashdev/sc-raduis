@@ -1,5 +1,7 @@
 {
-  "dependencies": {
-    "styled-components": "^5.0.0"
+  "name": "root",
+  "private": true,
+  "devDependencies": {
+    "lerna": "^3.19.0"
   }
 }
